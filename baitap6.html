@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let độC = + prompt("mời bạn nhập độ c");
+        switch (true) {
+            case độC >= 0:
+                console.log(`ta đc nhiệt dộ dương F= ${độC * (9/5) + 32}`);
+                break;
+        
+            case độC < 0:
+                console.log(`ta đc nhiệt dộ âm F= ${độC * (9/5) + 32}`);
+                break;
+            default:console.log("nhập sai");
+                break;
+        }
+    </script>
+</body>
+</html>
